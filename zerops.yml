@@ -13,4 +13,4 @@ zerops:
         - ./node_modules
         - package.json
     run:
-      start: yarn start
+      start: npm start
