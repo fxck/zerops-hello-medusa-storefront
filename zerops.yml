@@ -7,7 +7,7 @@ zerops:
         - npm run build
       cache:
         - ./node_modules
-        - ./package-json.lock
+        - ./package-lock.json
       deploy:
         - ./.next
         - ./node_modules
