@@ -1,0 +1,16 @@
+zerops:
+  - setup: storefront
+    build:
+      base: nodejs@18
+      buildCommands:
+        - npm i
+        - yarn run build
+      cache:
+        - ./node_modules
+        - ./package-json.lock
+      deploy:
+        - ./.next
+        - ./node_modules
+        - package.json
+    run:
+      start: yarn start
