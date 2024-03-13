@@ -13,7 +13,7 @@ zerops:
         - ./node_modules
         - package.json
         - ./next.config.js
-        - ./store.config.js
+        - ./store-config.js
         - ./store.config.json
     run:
       start: npm start
