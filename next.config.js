@@ -14,8 +14,10 @@ const nextConfig = withStoreConfig({
         hostname: "localhost",
       },
       {
-        protocol: "https",
-        hostname: "storage-prg1.zerops.dev",
+        protocol: 'https',
+        hostname: '**',
+        port: '',
+        pathname: '**',
       },
     ],
   },
