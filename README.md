@@ -1,1 +1,1 @@
-# Zerops Hello Medusa Storefront
+# Zerops Hello Medusa Next.js Storefront
